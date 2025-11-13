@@ -8,53 +8,66 @@
   </head>
   <body>
     <header>
-      <div>
-        <img src="./assets/logo.png" alt="Logo da página reciclatech" />
+      <div class="caixaLogo">
+        <img src="./assets/logo.png" alt="Logo da página recicla tech" />
+        <h1>ReciclaTech</h1>
       </div>
 
-      <h1>Recicla Tech</h1>
-
       <nav>
-        <a href="">Como funciona</a>
-        <a href=""> Doar</a>
-        <a href="">Adquirir</a>
-        <a href="">Começar agora</a>
+        <a href="#"> Como Funciona </a>
+        <a href="#"> Doar </a>
+        <a href="#"> Adquirir </a>
+        <a class="btnVerdeHeader" href="#"> Começar Agora </a>
       </nav>
     </header>
-    
-    
-    <section class="primeiraSection">
-      <section>
-        <h2> Dê uma segunda vida aos seus eletetrônicos<h2>
-        <p>Conectamos </p>
-
-        <div class="boxBtnPrimeiraSection">
-          <button class="btnVerde">Quero doar</button>
-          <button class="btnBranco">Quero Adquirir</button>
-        </div>
-      </section>
-    </section>
 
     <main>
+      <!-- Primeira Section
+   - borda vermelha guardando todo o conteúdo (pai) 
+   - borda verde guardando o maior conteúdo 
+   - borda roxo guardando os botões  
+   -->
+
+      <section class="primeiraSection">
+        <section>
+          <h2>Dê uma segunda vida aos seus eletrônicos!</h2>
+
+          <p>
+            Conectamos pessoas que querem doar eletrônicos em bom estado com
+            quem precisa deles. Simples, gratuito e sustentável!
+          </p>
+
+          <div class="boxBtnsPrimeiraSection">
+            <button class="btnVerde">Quero doar</button>
+            <button class="btnBranco">Quero Adquirir</button>
+          </div>
+        </section>
+
+        <img
+          src="./assets/reciclagem.png"
+          alt="Imagem do coração com componentes eletrônicos"
+        />
+      </section>
+
       <section class="produtosDisponiveis">
         <article>
-          <img src="" alt="Fone de ouvido JBL" />
-          <h3>Fone</h3>
-          <p>Fone em ótimo estado</p>
+          <img src="./assets/Fone.png" alt="Fone de ouvido JBL" />
+          <h3>Fones</h3>
+          <p>Fones em ótimo estado, prontos pra uso.</p>
           <button>Quero Adquirir</button>
         </article>
 
         <article>
-          <img src="" alt="Fone de ouvido JBL" />
-          <h3>No</h3>
-          <p>Fone em ótimo estado</p>
+          <img src="./assets/Notebook.png" alt="Nootebooks" />
+          <h3>Notebooks</h3>
+          <p>Notebooks funcionando direitinho, prontos pra você usar.</p>
           <button>Quero Adquirir</button>
         </article>
 
         <article>
-          <img src="" alt="Fone de ouvido JBL" />
-          <h3>Fone</h3>
-          <p>Fone em ótimo estado</p>
+          <img src="./assets/Smartphones.png" alt="Smartfones" />
+          <h3>Smartfones</h3>
+          <p>Celulares em ótimo estado, prontos pra uma nova jornada.</p>
           <button>Quero Adquirir</button>
         </article>
       </section>
